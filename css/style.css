@@ -1,0 +1,178 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+body {
+  font-family: "Lato", sans-serif;
+  width: 100%;
+}
+
+p {
+  font-weight: 600;
+}
+
+.linha1 {
+  border: 1px solid #a5a1a1;
+  height: 0.2px;
+  opacity: 0.2;
+}
+
+.linha2 {
+  border: 1px solid #a5a1a1;
+  height: 0.2px;
+  opacity: 0.2;
+}
+
+/*----------------------------------------------------------------
+Cabeçalho*/
+
+.container {
+  width: 75%;
+  margin: 0 auto;
+}
+
+.cabecalhoPrincipal {
+  background-color: #fff;
+  display: flex;
+  flex-direction: column;
+}
+
+.cabecalhoPrincipal .container {
+  align-items: center;
+  width: 75%;
+}
+
+.menu {
+  height: 94px;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.cabecalhoPrincipal-nav {
+  display: flex;
+  justify-content: space-between;
+  width: 10%;
+}
+
+.cabecalhoPrincipal-nav img {
+  height: 23.78px;
+}
+
+.banner img {
+  width: 100%;
+}
+
+/*----------------------------------------------------------------
+Main*/
+.conteudoPrincipal {
+  margin-bottom: 80px;
+}
+
+.conteudoPrincipal-cabecalho {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 85px;
+}
+
+.conteudoPrincipal-cabecalho h2 {
+  text-transform: uppercase;
+  font-weight: bold;
+}
+
+.cabecalhoPrincipal-produtos-list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 100%;
+  margin-top: 57px;
+}
+
+.cabecalhoPrincipal-card {
+  display: flex;
+  justify-content: space-around;
+  flex-direction: column;
+  height: 393px;
+  border-radius: 5px;
+}
+
+/*----------------------------------------------------------------
+Rodapé*/
+
+.rodapePrincipal {
+  background: #f9f9f9;
+}
+
+.rodapePrincipal .container {
+  height: 216px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rodapePrincipal-contato {
+  height: 126px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.rodapePrincipal-form {
+  height: 96px;
+  width: 38.13%;
+}
+
+.rodapePrincipal-contatoForm-submit {
+  background-color: #4dba7a;
+  color: #fff;
+  cursor: pointer;
+  border: none;
+  border-radius: 0 5px 5px 0;
+  width: 28%;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  display: flex;
+  width: 100%;
+}
+
+.rodapePrincipal-contatoForm-legend {
+  margin-bottom: 10px;
+}
+
+.rodapePrincipal-contatoForm-fieldset {
+  height: 54px;
+}
+
+.rodapePrincipal-contatoForm-emailInput {
+  border: 0.5px solid #d9d9d9;
+  width: 72%;
+  border-radius: 5px 0 0 5px;
+}
+
+.container-footer {
+  width: 75%;
+  height: 132px;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-redesSociais {
+  width: 8%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.rodapePrincipal-redesSociais img {
+  width: 33.5;
+  height: 33.5;
+}
+
+.rodapePrincipal-formaPagamento {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 20%;
+}

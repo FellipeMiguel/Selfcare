@@ -1,0 +1,92 @@
+@media (max-width: 768px) {
+  .linha2 {
+    margin-top: 20%;
+  }
+  /*----------------------------------------------------------------
+  Header*/
+  .cabecalhoPrincipal-logo img {
+    width: 83px;
+    height: 21.5px;
+  }
+
+  .cabecalhoPrincipal-nav {
+    width: 93.16px;
+    justify-content: space-between;
+  }
+
+  .cabecalhoPrincipal-nav img {
+    width: 15px;
+    height: 16.19px;
+  }
+
+  .banner img {
+    min-height: 221px;
+    object-fit: cover;
+  }
+
+  /*----------------------------------------------------------------
+  Main*/
+  .cabecalhoPrincipal-card {
+    width: 40%;
+    height: 164px;
+  }
+
+  /*----------------------------------------------------------------
+  Rodapé*/
+  .rodapePrincipal {
+    height: auto;
+  }
+
+  .rodapePrincipal .container {
+    flex-direction: column;
+    height: auto;
+  }
+
+  .rodapePrincipal-contato {
+    width: 100%;
+    margin-bottom: 40px;
+  }
+
+  .rodapePrincipal-form {
+    width: 100%;
+  }
+
+  .rodapePrincipal-contatoForm-fieldset {
+    flex-direction: column;
+    height: 43px;
+    margin-top: 17px;
+  }
+
+  .rodapePrincipal-contatoForm-emailInput {
+    width: 90%;
+    height: 43px;
+    border-radius: 0;
+    padding: 10px;
+  }
+  .rodapePrincipal-contatoForm-submit {
+    width: 100%;
+    margin-top: 17px;
+    border-radius: 0;
+    padding: 10px;
+  }
+
+  .container-footer {
+    margin-top: -30px;
+  }
+
+  .rodapePrincipal-redesSociais {
+    width: 20%;
+  }
+
+  .rodapePrincipal-formaPagamento {
+    width: 40%;
+  }
+
+  .rodapePrincipal-redesSociais img {
+    width: 40%;
+  }
+
+  .rodapePrincipal-formaPagamento img {
+    width: 18%;
+  }
+}
